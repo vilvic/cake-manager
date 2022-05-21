@@ -1,0 +1,111 @@
+.content {
+    max-width: 1024px;
+    padding-top: 8px;
+    margin: auto;
+}
+
+.div-table {
+    display: table;
+    width: 1024px;
+}
+
+.div-table-row {
+    display: table-row;
+}
+
+.div-table-col, .div-table-head {
+    display: table-cell;
+    padding: 3px 10px;
+    border: 1px solid #1d3557;
+    vertical-align: top;
+}
+
+.div-table-head {
+    display: table-header-group;
+    background-color: #9CB4D6;
+    font-weight: bold;
+}
+
+.div-table-body {
+    display: table-row-group;
+}
+
+.image-size {
+    border-radius: 8px;
+    width: 150px;
+}
+
+.button {
+    padding: 4px;
+    color: #fff;
+    width: 120px;
+    font-size: 1.2rem;
+    background: #1d3557;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    margin-right: 0.8rem;
+    margin-bottom: 0.8rem;
+}
+
+.disable-btn {
+    cursor: not-allowed;
+    padding: 4px;
+    color: #ccc;
+    width: 120px;
+    font-size: 1.2rem;
+    background: #50688A;
+    border-radius: 4px;
+    border: none;
+    margin-right: 0.8rem;
+    margin-bottom: 0.8rem;
+}
+
+.error-message {
+    font-size: 1.2rem;
+    font-weight: bolder;
+    padding: 8px;
+    margin: 4px;
+    background: #FFEBF8;
+    color: #e63946;
+    border: 1px solid #e63946;
+}
+
+.input-error {
+    border-color: #e63946;
+}
+
+.error {
+    color: #e63946;
+    font-size: 1rem;
+    margin-top: 0.3rem;
+}
+
+.form-row {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.5rem;
+}
+
+input {
+    border: 2px solid #1d3557;
+    border-radius: 4px;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+}
+
+label {
+    font-size: 1.4rem;
+    margin-bottom: 0.5rem;
+}
+
+h1 {
+    font-size: 2rem;
+    color: #293241;
+    margin-bottom: 2rem;
+}
+
+label,
+input {
+    color: #293241;
+}

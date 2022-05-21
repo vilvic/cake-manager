@@ -1,0 +1,12 @@
+version: '3.4'
+services:
+  cake-manager-client-microservice:
+    image: cake-manager-client:0.0.1
+    container_name: cake-manager-client
+    ports:
+      - "3000:3000"
+  cake-manager-server-microservice:
+    image: cake-manager-server:0.0.1-SNAPSHOT
+    container_name: cake-manager-server
+    ports:
+      - "8080:8080"
